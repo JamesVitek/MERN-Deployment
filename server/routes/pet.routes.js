@@ -1,5 +1,5 @@
 
-const PetController = require("../controllers/Pet.controller");
+const PetController = require("../controllers/pet.controller");
 
 module.exports = (app) => {
     app.get("/api/hello", PetController.hello);
